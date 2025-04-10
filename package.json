@@ -1,0 +1,12 @@
+{
+  "name": "pkmn-colorless",
+  "version": "",
+  "scripts": {
+    "dev": "bun --watch ./server.js",
+    "test": "jest --verbose"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
