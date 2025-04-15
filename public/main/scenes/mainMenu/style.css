@@ -1,3 +1,66 @@
+/* Global CSS for main menu scenes and nodes */
+
+#app {
+    background-image: linear-gradient(45deg, #10081c 15%, #261442 85%);
+}
+
+#back {
+    position: absolute;
+    left: 2vw;
+    top: 2vh;
+}
+
+h1 {
+    font-family: 'Arial';
+    font-size: 56px;
+    color: aliceblue;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    width: 600px;
+    height: 600px;
+    gap: 40px;
+
+    background-color: rgba(31, 4, 90, 0.2);
+    border: rgb(31, 4, 90) solid 5px;
+    border-radius: 30px;
+}
+
+.menu-selection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .btn {
-    width: 100px;
-} /* test */
+    width: 400px;
+    height: 80px;
+
+    background-color: black;
+    border: aliceblue solid 5px;
+    border-radius: 15px;
+
+    font-family: 'Arial';
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.btn:hover {
+    cursor: pointer;
+    /* TODO: Add button animations */
+}
+
+
+/* Colors demonstration */
+
+.open:hover { background-color: rgba(112, 0, 0, 0.3); }
+.collection:hover { background-color: rgba(0, 112, 0, 0.3); }
+.matchmaking:hover { background-color: rgba(0, 0, 112, 0.3); }
+.private:hover { background-color: rgba(112, 112, 0, 0.3); }
